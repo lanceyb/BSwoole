@@ -13,3 +13,5 @@
  * 3. return $app
  */
 
+$app = new Sassha\Foundation\Application;
+
