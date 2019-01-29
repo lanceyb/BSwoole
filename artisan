@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+define('BSwoole_START', microtime(true));
+
+echo('hi');
