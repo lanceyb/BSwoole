@@ -3,4 +3,8 @@
 
 define('BSwoole_START', microtime(true));
 
-echo('hi');
+require __DIR__.'/vendor/autoload.php';
+
+$app = require_once __DIR__.'/bootstrap/app.php';
+
+echo('I am artisan!');
